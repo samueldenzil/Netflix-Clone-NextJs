@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import { Banner, Header } from '../components'
+import { Banner, Header, Row } from '../components'
 import { Movie } from '../typings'
 import requests from '../utils/requests'
 
@@ -36,7 +36,13 @@ const Home = ({
       <main className="pl-4 pb-24 lg:space-y-24 lg:pl-16">
         {/* Banner */}
         <Banner netflixOriginals={trendingNow} />
-        <section>
+        <section className="md:space-y-24">
+          <Row title="Trending Now" movies={trendingNow} />
+          <Row title="Netflix Originals" movies={netflixOriginals} />
+          <Row title="Top Rated" movies={topRated} />
+          <Row title="Action Movies" movies={actionMovies} />
+          <Row title="Romance Movies" movies={romanceMovies} />
+          <Row title="Comedy Movies" movies={comedyMovies} />
           {/* Row */}
           {/* Row */}
           {/* Row */}
