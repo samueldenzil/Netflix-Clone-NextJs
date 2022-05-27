@@ -5,12 +5,16 @@ import Image from 'next/image'
 import { baseUrl } from '../constants/movie'
 import { FaPlay } from 'react-icons/fa'
 import { InformationCircleIcon } from '@heroicons/react/solid'
+import { useDispatch } from 'react-redux'
+import { openModal, setBannerMovie } from '../store/features/modal/modalSlice'
 
 interface Props {
   netflixOriginals: Movie[]
 }
 
 function Banner({ netflixOriginals }: Props) {
+  const dispatch = useDispatch()
+
   const [movie, setMovie] = useState<Movie | null>(null)
 
   useEffect(() => {
@@ -40,7 +44,13 @@ function Banner({ netflixOriginals }: Props) {
           <FaPlay className="h-4 w-4 text-black md:h-7 md:w-7" />
           Play
         </button>
-        <button className="bannerBtn bg-[gray]/70">
+        <button
+          className="bannerBtn bg-[gray]/70"
+          onClick={() => {
+            dispatch(openModal())
+            dispatch(setBannerMovie(movie))
+          }}
+        >
           More Info
           <InformationCircleIcon className="h-5 w-5 md:h-8 md:w-8" />
         </button>
