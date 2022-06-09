@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/samueldenzil/netflix-clone">
     <img src="https://rb.gy/ulxxee" alt="Logo" width="300">
   </a>
 
@@ -36,15 +36,6 @@ Home Page
 [![Netflix Clone UI][product-screenshot3]](https://netflix-clone-git-main-samueldenzil.vercel.app/)
 
 ### Built With
-
-<!-- TAILWIND CSS
-👉 NEXTJS SSR (Server Side Rendering)
-👉 TMDB API
-👉 FIREBASE V9 SDK
-👉 FIREBASE AUTHENTICATION
-👉 VERCEL HOSTING (How to deploy)
-👉 RECOIL (State management within React)
- -->
 
 - [Next.js](https://nextjs.org/)
 - [React.js](https://reactjs.org/)
