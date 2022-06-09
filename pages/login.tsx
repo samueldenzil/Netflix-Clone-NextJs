@@ -32,7 +32,7 @@ const login = () => {
   return (
     <div className="relative flex h-screen w-screen flex-col bg-black md:items-center md:justify-center md:bg-transparent">
       <Head>
-        <title>Home - Netflix</title>
+        <title>Netflix Clone</title>
         <link
           rel="icon"
           href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png"
