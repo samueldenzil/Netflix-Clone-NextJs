@@ -1,23 +1,59 @@
-# Next.js + Tailwind CSS Example
+<div id="top"></div>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="https://rb.gy/ulxxee" alt="Logo" width="300">
+  </a>
 
-## Deploy your own
+  <h3 align="center">Netflix Clone</h3>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+  <p align="center">
+    <!-- A Netflix Clone -->
+    <!-- <br /> -->
+    <br />
+    <a href="https://netflix-clone-git-main-samueldenzil.vercel.app/">View Demo</a>
+    ·
+    <a href="https://github.com/samueldenzil/netflix-clone/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/samueldenzil/netflix-clone/issues">Request Feature</a>
+  </p>
+</div>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+<!-- ABOUT THE PROJECT -->
 
-## How to use
+## About The Project
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+A Netflix Clone built using Next.js and Tailwind.css
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
-```
+Login Page
+[![Netflix Clone UI][product-screenshot1]](https://netflix-clone-git-main-samueldenzil.vercel.app/)
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Home Page
+[![Netflix Clone UI][product-screenshot2]](https://netflix-clone-git-main-samueldenzil.vercel.app/)
+
+[![Netflix Clone UI][product-screenshot3]](https://netflix-clone-git-main-samueldenzil.vercel.app/)
+
+### Built With
+
+<!-- TAILWIND CSS
+👉 NEXTJS SSR (Server Side Rendering)
+👉 TMDB API
+👉 FIREBASE V9 SDK
+👉 FIREBASE AUTHENTICATION
+👉 VERCEL HOSTING (How to deploy)
+👉 RECOIL (State management within React)
+ -->
+
+- [Next.js](https://nextjs.org/)
+- [React.js](https://reactjs.org/)
+- [Tailwind.css](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Redux](https://react-redux.js.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Firebase](https://firebase.google.com/)
+
+[product-screenshot1]: images/screenshot1.png
+[product-screenshot2]: images/screenshot2.png
+[product-screenshot3]: images/screenshot3.png
