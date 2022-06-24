@@ -38,10 +38,7 @@ const Home = ({
     >
       <Head>
         <title>Home - Netflix Clone</title>
-        <link
-          rel="icon"
-          href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png"
-        />
+        <link rel="icon" href="/netflix-icon.png" />
       </Head>
       {/* Header */}
       <Header />
