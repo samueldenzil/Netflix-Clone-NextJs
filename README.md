@@ -13,7 +13,7 @@
     <!-- A Netflix Clone -->
     <!-- <br /> -->
     <br />
-    <a href="https://netflix-clone-git-main-samueldenzil.vercel.app/">View Demo</a>
+    <a href="https://netflix-clone-eta-lyart.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/samueldenzil/netflix-clone/issues">Report Bug</a>
     ·
@@ -28,12 +28,12 @@
 A Netflix Clone built using Next.js and Tailwind.css
 
 Login Page
-[![Netflix Clone UI][product-screenshot1]](https://netflix-clone-git-main-samueldenzil.vercel.app/)
+[![Netflix Clone UI][product-screenshot1]](https://netflix-clone-eta-lyart.vercel.app/)
 
 Home Page
-[![Netflix Clone UI][product-screenshot2]](https://netflix-clone-git-main-samueldenzil.vercel.app/)
+[![Netflix Clone UI][product-screenshot2]](https://netflix-clone-eta-lyart.vercel.app/)
 
-[![Netflix Clone UI][product-screenshot3]](https://netflix-clone-git-main-samueldenzil.vercel.app/)
+[![Netflix Clone UI][product-screenshot3]](https://netflix-clone-eta-lyart.vercel.app/)
 
 ### Built With
 
